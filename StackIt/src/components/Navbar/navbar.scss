@@ -1,0 +1,90 @@
+//main container of navbar
+.navbar-container{
+    background-color: #111827;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+//logo section container
+    .logo-container{
+        width: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+//logo section container
+    .search-bar-container{
+        border: 1px solid #4b5563;
+        display: flex;
+        align-items: center;
+        width: 40%;
+        height: 90%;
+        background-color: #1f2937;
+        border-radius: 25px;
+
+        input{
+            background-color: #1f2937;
+            width: 90%;
+            padding-left: 15px;
+        }
+
+        .search-icon{
+            margin-left: 12px;
+        }
+
+    }
+//buttons and drop down section container
+    .buttons-container{
+        
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+
+        .qr-code-icon-button{
+            padding: 8px;
+            border: 1px solid black;
+            background-color: #e5e7eb;
+            color: black;
+            border-radius: 25px;
+            width: 104px;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            strong{
+                font-size: 0.9em;
+            }
+        }
+
+        .log-in-button{
+            border: 1px solid black;
+            background-color: #ea580c;
+            color: white;
+            border-radius: 25px;
+            width: 104px;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9em;
+        }
+
+        .log-in-modal-button{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: #a1a1aa;
+            border-radius: 3px;
+            width: 64px;
+            height: 70%;
+        }
+        .log-in-modal-button:hover{
+            border: 1px solid #a1a1aa;
+        }
+    }
+}
